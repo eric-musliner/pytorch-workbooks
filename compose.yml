@@ -1,0 +1,6 @@
+services:
+
+  torch:
+    build: .
+    volumes:
+      - ./:/opt/torch
